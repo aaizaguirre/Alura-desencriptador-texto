@@ -91,6 +91,7 @@ button:hover {
     opacity: 0.9;
     transform:scale(1.1);
     transition: 0.8s;
+    cursor: pointer;
 }
 
 .encriptar {
@@ -121,6 +122,7 @@ button:hover {
 .imagenFigura {
     width: 100%;
     height: 80%;
+    border-radius: 10px;
 }
 
 .avisoMensaje {
@@ -191,4 +193,163 @@ footer p {
     margin-top: 5px;
     margin-bottom: 0;
     font-size: 0.8rem;
+}
+
+/* Tabletas */
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    main {
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
+
+    .containerPrincipal {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #ingresoTexto {
+        width: 100%;
+        height: 500px;
+    }
+
+    .containerAdvertencia {
+        height: 100px;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .containerAdvertencia img {
+        height: 30%;
+        margin: auto 0;
+    }
+
+    .containerAdvertencia p {
+        font-size: 30px;
+    }
+
+    .containerBotones button {
+        width: 40%;
+        padding: 50px;
+        font-size: 1.8rem;
+    }
+
+    .containerSecundario {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .avisoMensaje {
+        font-size: 45px;
+        margin-top: 20px;
+    }
+
+    .avisoTexto {
+        font-size: 35px;
+    }
+
+    footer {
+        width: 100%;
+        height: 150px;
+    }
+
+    footer .iconosRedes a {
+        font-size: 3.5rem;
+        margin: 0 25px;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+}
+
+/* Dispositivos moviles */
+@media (max-width: 767px) {
+    
+    #logoAlura {
+        width: 120px;
+        height: 45px;
+        margin: 15px 0 0 30px;
+    }
+
+    main {
+        width: 100%;
+        display: block;
+        min-width: 0;
+        padding: 0;
+    }
+
+    .containerPrincipal {
+        width: 100%;
+        margin: 0 auto;
+        min-width: 0;
+    }
+
+    #ingresoTexto {
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    .containerAdvertencia {
+        height: 80px;
+        width: 100%;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .containerAdvertencia img {
+        height: 30px;
+        margin: 15px 10px 0 0;
+    }
+
+    .containerAdvertencia p {
+        font-size: 20px;
+        margin: 15px 10px 0 0;
+    }
+
+    .containerBotones {
+        width: 100%;
+    }
+
+    .containerBotones button {
+        width: 45%;
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+
+    .containerSecundario {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .containerCopiar {
+        width: 100%;
+    }
+
+    .avisoMensaje {
+        font-size: 45px;
+        margin-top: 20px;
+    }
+
+    .avisoTexto {
+        font-size: 35px;
+    }
+
+    footer {
+        width: 100%;
+        min-width: 0;
+        height: 150px;
+    }
+
+    footer .iconosRedes a {
+        font-size: 2.5rem;
+        margin: 0 15px;
+    }
+
+    footer p {
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
 }
