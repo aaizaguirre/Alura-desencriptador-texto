@@ -22,4 +22,4 @@ Las llaves de encriptación solicitadas son las siguientes:
 * La letra "u" es convertida a "ufat"
 
 ## 🏆 Insignia de finalización
-![Insignia de finalización - Encriptador de texto Alura](images\insignia_finalización.png)
+![Insignia de finalización - Encriptador de texto Alura](images/insignia_finalización.png)
