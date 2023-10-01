@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     encriptarButton.addEventListener("click", function() {
-        var textoIngresado = textarea.value.trim(); // Trima los espacios en blanco alrededor del texto
+        var textoIngresado = textarea.value.trim();
 
         if (textoIngresado.length !== 0) {
             var textoEncriptado = encriptarTexto(textoIngresado);
